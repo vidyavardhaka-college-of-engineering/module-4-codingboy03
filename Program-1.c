@@ -1,5 +1,5 @@
 //Input : 23  34 
-//Output: Sum of feet = 57
+//Output: Sum of distances = 57
 
 //Program to add two distances (feet-inch)
 #include <stdio.h>
@@ -16,6 +16,6 @@ int main()
     sum.feet = dist1.feet + dist2.feet;
    
 
-    printf("Sum of feet = ",sum.feet);//Enter the missing code
+    printf("Sum of feet = %d",sum.feet);//Enter the missing code
     return 0;
 }
